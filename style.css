@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:rgb(57, 74, 54);
+    --secondary-color:rgb(206, 210, 204);
+    --first-text-color: white;
+    --second-text-color: rgb(44, 69, 40);
+    --3rd-color: rgba(201, 201, 201, 0.934);
+}
+body{
+    background-color: var(--secondary-color);
+    
+    
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding: 20px;   
+}
+
+.navbar ul li a{
+    color: var(--first-text-color);
+    text-decoration: none; 
+    
+}
+
+.navbar ul li a:hover{
+    color: rgb(139, 139, 128);
+    text-decoration: overline;
+    
+}
+
+.h1 div{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 50px;    
+}
+
+.h1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: var(--first-text-color);
+}
+.P1{
+    
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.photo-text1 h1{
+    font-family: "Cinzel", serif;
+    color: azure;
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 50px;
+}
+.photo-text1 h1::before{
+    content: '';
+    position: absolute;
+    top:100%;
+    width: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(241, 239, 239);
+    transition: 0.8s;
+}
+.photo-text1 h1:hover::before{
+    width: 100%;
+    text-decoration: underline;  
+}
+
+.photo-text1 .p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    top: 59%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.photo-text1 .p2{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: azure;
+    position: absolute;
+    top: 63%;
+    margin-top: 9px;
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.photo-text1 .p3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 73%;
+    margin-left: 75px;
+    border: 2px solid rgb(255, 241, 241);
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.photo-text1 .p3:hover{
+    text-decoration: underline;
+
+}
+.step2 p{
+    
+   
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    color: var(--second-text-color);
+    font-size: 55px;
+    font-family: "Cinzel", serif;
+    
+}
+.step3{
+    display: flex;
+   margin-left: 60px;
+   padding-left: 40px;
+}
+.step3 .p1{
+    margin: 20px;
+    
+}
+.step3 .p2{
+    margin: 20px;
+}
+.step3 .p3{
+    margin: 20px;
+}
+.cap{
+    display: flex;
+    display: flex;
+    margin-left: 30px;
+    padding-left: 40px;
+    justify-content: space-between;
+    color: var(--second-text-color);
+    
+    
+}
+.cap .cap1{
+    margin-left: 150px;
+    font-size: 30px;
+}
+.cap .cap2{
+    margin-right: 250px;
+    font-size: 30px;
+    
+}
+.cap .cap3{
+    font-size: 30px;
+    margin-bottom: 90px;
+    
+}
+
+
+.card1 img{
+    
+    float: left;
+    margin: 70px;
+    margin-left: 120px;
+    padding: 0px;
+    
+}
+.card1 .info{
+    padding-top:200px ;
+    padding-bottom: 270px;
+    color: var(--second-text-color);
+    background-color: var(--3rd-color);  
+    
+}
+.info h1{
+    margin: 20px;
+    font-family: "Cinzel", serif;
+    margin-bottom: 40px;  
+}
+.info p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+}
+.card2 img{
+    
+    float: right;
+    margin: 70px;
+    margin-left: 120px;
+    padding: 0px;
+    
+}
+.card2 .info2{
+    padding-top:200px ;
+    padding-bottom: 280px;
+    color: white;
+    background-color: var(--primary-color);  
+    
+}
+.info2 h1{
+    margin: 20px;
+    font-family: "Cinzel", serif;
+    padding: 50px;  
+    font-size: 30px;
+}
+.info2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    font-size: 16px;
+}
+.about{
+    background-color:rgb(24, 36, 21);
+    color: rgb(198, 217, 217);
+    padding: 100px;
+    
+}
+.about h1{
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.about p{
+    font-family: "Cinzel", serif;
+    font-size: large;
+    text-align: center;
+    text-overflow: ellipsis;
+    padding-bottom: 0px;
+    margin: 20px;  
+}
+.about h3{
+    text-align: center;
+}
+.follow{ 
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    color: var(--second-text-color);
+    font-size: 40px;
+    font-family: "Cinzel", serif;
+}
+.step4{
+    display: flex;
+   margin-left: 80px;
+   padding-left: 50px;
+}
+.step4 .p1{
+    margin: 30px;
+    
+}
+.step4 .p2{
+    margin: 30px;
+}
+.step4 .p3{
+    margin: 30px;
+}
+.step4 .p1:hover{
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0.5px 6px 10px 2px rgba(57, 56, 56, 0.959);
+    transition: all 1000ms cubic-bezier(0.19, 0.5, 0.22, 1);
+}
+
+.step4 .p2:hover{
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0.5px 6px 10px 2px rgba(57, 56, 56, 0.959);
+    transition: all 1000ms cubic-bezier(0.19, 0.5, 0.22, 1);
+}
+.step4 .p3:hover{
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0.5px 6px 10px 2px rgba(57, 56, 56, 0.959);
+    transition: all 1000ms cubic-bezier(0.19, 0.5, 0.22, 1);
+}
+
+.insta {
+    color: var(--second-text-color);
+    text-align: center;
+    font-size: 25px;
+    font-family: "Cinzel", serif;
+    padding: 20px;
+    margin:40px ;
+}
+.insta a{
+    border: 2px solid  rgb(44, 69, 40);
+    border-radius: 45px;
+    margin: 5px;
+    padding: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.insta a:hover{
+    background-color: rgb(144, 152, 143);
+}
+.step5{
+    color: azure;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+.step5 .left label{
+    font-size: 40px;
+    margin: 150px; 
+    font-family: "Cinzel", serif;  
+}
+.step5 .left p{
+
+    font-size: 18px;
+    margin-left: 150px;
+    font-family: "Cinzel", serif;   
+}
+.step5 .right{
+    margin-right: 150px;
+}
+.step5 .right p{
+    font-size: 20px;
+    margin: 10px;
+}
+.step5 .right input{
+    width: 600px;
+    height: 40px;
+    margin: 10px;
+}
+.step5 .right button{
+    width: 70px;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: var(--primary-color);
+}
+.step6{
+    
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.step6 .a1{
+    margin: 40px;
+    font-size: 40px;
+    margin-left: 120px;
+    color: var(--primary-color);
+}
+.step6 .a2 ul{
+    margin-top: 40px;
+    list-style: none;
+    text-decoration: underline;
+    font-size: 15px;
+    color: var(--primary-color);
+}
+.step6 .a2 li:hover{
+
+    color: black;
+}
+.step6 .a3{
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-top: 40px;
+    padding-right: 50px;
+    
+}
+.a3 a{
+    margin-top: 5px;
+    margin: 4px;
+    padding-top: 3px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.a3 a:hover{
+    color:  rgb(93, 96, 93);
+
+}
